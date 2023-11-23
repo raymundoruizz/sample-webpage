@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, "Arial", sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 100px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+    flex: none;
+    margin-right: auto;
+}
+
+ul {
+    display: flex;    
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    gap: 16px;
+}
+
+
+a {
+    /* this removes the line under the links */
+    text-decoration: none;
+    flex: 1;
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 40px;
+}
+
+.container-one {
+    display: flex;
+    background-color: #1F2937;
+    padding: 5px 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+}
+
+.left-text {
+    margin-right: 50px;
+}
+
+.title-one {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.subtext-one {
+    font-size: 18px;
+    color:#e5e7eb
+
+}
+
+.button-top, .button-bottom {
+    background-color: #3882f6;
+    border-radius: 5%;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container-two {
+    display: flex;
+    
+}
