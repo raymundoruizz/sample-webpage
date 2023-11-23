@@ -65,19 +65,20 @@ a {
 
 .button-top, .button-bottom {
     background-color: #3882f6;
-    border-radius: 5%;
-    height: 30px;
-    width: 100px;
+    border-radius: 10px;
+    height: 40px;
+    width: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    font-size: 18px;
 }
 
 .container-two {
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 450px;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -119,7 +120,7 @@ a {
 }
 
 img {
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 .container-three {
@@ -127,14 +128,70 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 400px;
     background-color: #e5e7eb;
+    gap: 10px;
+    margin: 0 auto;
 }
 .quote {
     text-align: start;
-    width: 1000px;
+    width: 800px;
     font-size: 36px;
     color:#1F2937;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 300;
+    /* margin: 0 auto; */
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    /* margin: 0 auto; */
+    /* text-align: end; */
+    width: 600px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.container-four {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-call {
+    display: flex;
+    background-color: #3882f6;
+    width: 800px;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    border-radius: 10px;
+}
+
+.button-bottom {
+    border-width: 1px;
+    border-color: white;
+}
+
+.title-four, .bottom-text, .footer-text {
+    color:#F9FAF8;
+}
+
+.title-four {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bottom-text {
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
 }
